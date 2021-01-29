@@ -1,0 +1,30 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px #fafafa;
+}
+
+.chat-image {
+  margin-right: 20px;
+}
+
+/* this means that this part of will take up more space — all the space between other two elements */
+.chat-details {
+  flex: 1;
+}
+
+.chat-details > p {
+  color: gray;
+}
+
+.passed-time {
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

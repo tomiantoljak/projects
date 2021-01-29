@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #f9f9f9;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  /* this keeps the icon in same proportions whatever size you assert */
+  object-fit: contain;
+}
+
+.header-icons {
+  padding: 20px;
+}
